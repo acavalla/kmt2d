@@ -8,11 +8,13 @@ The hypothesis is that KMT2D, the histone methyltransferase, has a role in DNA r
 - Obtain list of filepaths in txt file, from which to pull out mutational calls of user-defined transcript
 - Aligning of snv and indel call files for each sample and definition of all samples as KMT2D wildtype or mutant
 
+
 ## 1) Overview of data characteristics 
 - St Jude Pecan Cloud gene mutation visualisation tool 
   - Script to mutate data into format accepted by tool
   - Compared to mutations listed in COSMIC and those from St Jude paediatric cancer samples
 - Stacked bar graph of number of KMT2D mutated samples as a proportion of all samples
+  
   
 ## 2) Visualisation of KMT2D mutational status correlation with SNV/indel counts
 - Correlation of proportion of samples with mutated KMT2D to median somatic alterations by lymphoma type
@@ -22,10 +24,12 @@ The hypothesis is that KMT2D, the histone methyltransferase, has a role in DNA r
 - Provean online tool used to analyse which mutations are likely to be deleterious and which not (this line of questioning was abandoned when I discovered that synonymous mutations are often cancer driver genes (REF) for various reasons such as codon bias, and that Provean delineated all synonymous mutations as wildtype)
 
 
+
 ## 3) Comutation or synthetic lethality with other DNA repair genes
 - PARP1
 - BRCA1
 - Maftools summaries: concatenated Maf files using an R script to print all file names within a lymphoma type and a shell script
+
 
 ## 4) Mutational signature analysis: is there a known signature associated with KMT2D mutational status, and if not, is there a novel one?
 - Mutational trinucleotide context extraction
