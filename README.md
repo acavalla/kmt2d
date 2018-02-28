@@ -2,7 +2,7 @@
 
 This is work I have done relating to my thesis project. It is almost entirely R-based, with a few shell scripts.
 
-The hypothesis is that KMT2D, the histone methyltransferase, has a role in DNA repair. To decipher whether this was the case, I took the following approach:
+The hypothesis is that KMT2D, the histone methyltransferase, has a role in DNA repair. To decipher whether this was the case, I took the following approach with the following data:
 
 - 600 lymphoma samples with Strelka variant calls in variant call format (VCF) and mutation annotation format (MAF) files
 - Obtain list of filepaths in txt file, from which to pull out mutational calls of user-defined transcript
