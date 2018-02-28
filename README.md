@@ -1,6 +1,6 @@
 # kmt2d
 
-This is work I have done relating to my thesis project. It is almost entirely R-based, with a few shell scripts for concatenating maf files. 
+This is work I have done relating to my thesis project. It is almost entirely R-based, with a few shell scripts.
 
 The hypothesis is that KMT2D, the histone methyltransferase, has a role in DNA repair. To decipher whether this was the case, I took the following approach:
 
