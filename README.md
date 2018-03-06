@@ -11,8 +11,8 @@ The hypothesis is that KMT2D, the histone methyltransferase, has a role in DNA r
 
 ## 1) Overview of data characteristics 
 - St Jude Pecan Cloud gene mutation visualisation tool 
-  - Script to mutate data into format accepted by tool
-  - Compared to mutations listed in COSMIC and those from St Jude paediatric cancer samples
+  - Script to wrangle data into format accepted by tool
+  - Compare to mutations listed in COSMIC and those from St Jude paediatric cancer samples
 - Stacked bar graph of number of KMT2D mutated samples as a proportion of all samples
   
   
@@ -38,10 +38,12 @@ The hypothesis is that KMT2D, the histone methyltransferase, has a role in DNA r
 
 
 
-Problems I ran into & how I solved them
-- Consistency between samples and data available
-  - FFPE samples
-  - Maf or Vcf or both file types available
+
+
+
+### Problems I ran into & how I solved them
+- Consistency between samples and data available: Maf or Vcf or both file types available
+- FFPE samples
 - Obtaining filepaths because of inconsistent file naming 
 - Within samples, indels and snv calls were stored in separate files. To get the mutational status of an entire sample, it was necessary to find unique identifier strings within the filenames that would be shared by snv and indel file and no others. 
 - When loading Vcf files into RStudio, depending on the sequencing run and settings, differing numbers of columns were present, causing alignment and rbinding issues
