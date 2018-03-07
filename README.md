@@ -1,6 +1,6 @@
 # kmt2d
 
-This is work I have done relating to my thesis project. It is almost entirely R-based, with a few shell scripts.
+This work relates to my thesis project. It is almost entirely R-based, with a few shell scripts.
 
 The hypothesis is that KMT2D, a histone methyltransferase that was the 13th most mutated gene in a pan-cancer analysis and has had a mutation rate of 89% in follicular lymphoma, has a role in DNA repair. To decipher whether this was the case, I took the following approach with the following data:
 
