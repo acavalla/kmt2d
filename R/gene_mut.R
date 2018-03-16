@@ -7,7 +7,7 @@ library(data.table)
 library(plyr)
 process.maf <- function(x){
   a <- file.names[i]
-  a <- paste0("/projects/rmorin/projects/nhl_meta_analysis/results/strelka_pipeline-1.0.0/", a)
+  a <- paste0("/XXX/xxx/", a)
   x <- tryCatch(fread(paste("grep", transcr[j], file.names[i]), header=FALSE, sep="\t", stringsAsFactors=FALSE), error=function(e) NULL)
   if(!is.null(x)){
     x <- as.data.frame(as.matrix(x))
