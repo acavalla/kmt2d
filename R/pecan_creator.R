@@ -2,9 +2,9 @@
 # The arrange function output, when uploaded to https://pecan.stjude.cloud/proteinpaint, produces an infographic labelled with the alternative (new & mutated) nucleotide
 # arrange.amino.acid creates an infographic where mutations are labelled by the previous amino acid, position, and new amino acid.
 
-##load tsv created by /projects/acavalla_prj/kmt2d/301067/patient_data/gene_muts/gene_muts.R script
+##load tsv created by gene_muts.R script
 transcr <- "ENST00000460911" #EZH2
-x <- read.table(paste0("/projects/acavalla_prj/kmt2d/301067/patient_data/gene_muts/", transcr, "_mutations.txt"))
+x <- read.table(paste0("XXX/xxx", transcr, "_mutations.txt"))
 
 gene.name <- "EZH2"
 refseq <- "NM_001203247"
