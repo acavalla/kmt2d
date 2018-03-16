@@ -20,11 +20,11 @@
 
 ##input: file created by gene_muts.R
 
-transcr <- “ENST00000301067” ##transcript of your choice
-x <- read.table(paste0(“/projects/acavalla_prj/kmt2d/301067/patient_data/gene_muts/“, transcr, “_mutations.txt”))
-x <- x[x$assembly==“GRCh37”,]
+transcr <- "ENST00000301067" ##transcript of your choice
+x <- read.table(paste0("XXX/xxx", transcr, "_mutations.txt"))
+x <- x[x$assembly=="GRCh37",]
 
 x$alt <- ifelse(as.character(x$ref) == as.character(x$alt), as.character(x$alt), as.character(x$alt2))
 
 x <- cbind(x$chr, x$pos, x$ref, x$alt)
-write.table(x, paste0(”/projects/acavalla_prj/kmt2d/301067/patient_data/provean/“, transcr, “.csv”), sep=",",  col.names=FALSE, row.names = FALSE, quote=FALSE)
+write.table(x, paste0("XXX/xxx, transcr, ".csv"), sep=",",  col.names=FALSE, row.names = FALSE, quote=FALSE)
