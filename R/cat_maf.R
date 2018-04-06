@@ -1,3 +1,9 @@
+### The result printed to the console should be copied to the shell, preceded by "cat " and followed by 
+## "| awk '/Hugo/&&c++>0 {next} 1' | awk '/version/&&c++>0 {next} 1' > outfile". It segregates files into whether they come from a sample
+## with mutated KMT2D or wildtype (or any other gene, depending on the gene_mut.R script) and concatenates those mafs to 
+## be entered into the maf_tools.R script
+
+
 x <- read.table("/projects/acavalla_prj/kmt2d/301067/patient_data/summarybysample.txt", sep = "\t", fill = TRUE, stringsAsFactors = FALSE, header = TRUE)
 
 a <- c("BL_ICGC_MALY-DE_orig", "BL_Love_Dave_2012", "CLL", "batch7",
@@ -39,3 +45,6 @@ for(h in 1:length(z)){
     cat("\n")
   }
 }
+
+
+
