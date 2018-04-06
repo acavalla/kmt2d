@@ -1,9 +1,15 @@
-##maftools toolbox
+## This script relies on maf files concatenated from the server by cat_maf.R. It creates a variety of summary visuals 
+## with concatenated maf files that have already been separated into samples in which KMT2D was mutated and those in which it was wildtype.
+
+
+## Load maftools toolbox and ggplot2 
 source("https://bioconductor.org/biocLite.R")
 biocLite("maftools")
 library(maftools)
 library(ggplot2)
 
+
+## Load concatenated mafs
 mutwtcat <- list.files(path = "/projects/acavalla_prj/kmt2d/301067/patient_data/cat_maf/mut", pattern = ".maf$", all.files = FALSE,
                        full.names = TRUE, recursive = FALSE,
                        ignore.case = TRUE, include.dirs = FALSE, no.. = FALSE)
