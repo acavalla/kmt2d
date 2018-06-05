@@ -11,9 +11,9 @@ KMT2D is a histone methyltransferase. It was the 13th most mutated gene in a pan
 and took the following approach:
 
 ## 1) Overview of data characteristics 
-a) St Jude Pecan Cloud gene mutation visualisation tool 
-  i) Script to wrangle data into format accepted by tool
-  ii) Compare to mutations listed in COSMIC and those from St Jude paediatric cancer samples
+a) St Jude Pecan Cloud gene mutation visualisation tool
+i) Script to wrangle data into format accepted by tool
+ii) Compare to mutations listed in COSMIC and those from St Jude paediatric cancer samples
 b) Stacked bar graph of number of KMT2D mutated samples as a proportion of all samples
   
   
