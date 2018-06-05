@@ -25,10 +25,13 @@ and took the following approach:
   - Provean online tool used to analyse which mutations are likely to be deleterious and which not (this line of questioning was abandoned when I discovered that synonymous mutations are often cancer driver genes (REF) for various reasons such as codon bias, and that Provean delineated all synonymous mutations as wildtype)
 
 
-## 3) Comutation or synthetic lethality with other DNA repair genes
-  - PARP1
-  - BRCA1
-  - Maftools summaries: concatenated Maf files using an R script to print all file names within a lymphoma type and a shell script
+## 3) Comutation or synthetic lethality 
+  - With other DNA repair genes
+    - PARP1
+    - BRCA1
+  - Maftools summaries: concatenation of Maf files
+    - R script: prints all file names within a lymphoma type of KMT2D wild-type vs mutant
+    - shell script: finds & removes leading headers from all non-first maf file, writes to output file
 
 
 ## 4) Mutational signature analysis: is there a known signature associated with KMT2D mutational status, and if not, is there a novel one?
