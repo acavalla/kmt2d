@@ -18,26 +18,23 @@ and took the following approach:
   
   
 ## 2) Visualisation of KMT2D mutational status correlation with SNV/indel counts
-a) Correlation of proportion of samples with mutated KMT2D to median somatic alterations by lymphoma type
-b) Distribution densities
-c) Beeswarm plots
-d) Boxplots
-e) Provean online tool used to analyse which mutations are likely to be deleterious and which not (this line of questioning was abandoned when I discovered that synonymous mutations are often cancer driver genes (REF) for various reasons such as codon bias, and that Provean delineated all synonymous mutations as wildtype)
-
+  - Correlation of proportion of samples with mutated KMT2D to median somatic alterations by lymphoma type
+  - Distribution densities
+  - Beeswarm plots
+  - Boxplots
+  - Provean online tool used to analyse which mutations are likely to be deleterious and which not (this line of questioning was abandoned when I discovered that synonymous mutations are often cancer driver genes (REF) for various reasons such as codon bias, and that Provean delineated all synonymous mutations as wildtype)
 
 
 ## 3) Comutation or synthetic lethality with other DNA repair genes
-a) PARP1
-b) BRCA1
-c) Maftools summaries: concatenated Maf files using an R script to print all file names within a lymphoma type and a shell script
+  - PARP1
+  - BRCA1
+  - Maftools summaries: concatenated Maf files using an R script to print all file names within a lymphoma type and a shell script
 
 
 ## 4) Mutational signature analysis: is there a known signature associated with KMT2D mutational status, and if not, is there a novel one?
-a) Mutational trinucleotide context extraction
-b) Distillation into 30 COSMIC-defined mutational signatures (some with known aetiology)
-c) Heatmaps for both drawn with KMT2D status aligned along column labels
-
-
+  - Mutational trinucleotide context extraction
+  - Distillation into 30 COSMIC-defined mutational signatures (some with known aetiology)
+  - Heatmaps for both drawn with KMT2D status aligned along column labels
 
 
 
